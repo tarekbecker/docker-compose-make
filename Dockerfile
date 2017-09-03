@@ -82,4 +82,4 @@ RUN tox --notest
 ADD . /code/
 RUN chown -R user /code/
 
-ENTRYPOINT ["/code/.tox/py27/bin/docker-compose"]
+# ENTRYPOINT []
